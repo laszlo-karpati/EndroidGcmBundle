@@ -48,7 +48,7 @@ public function registerBundles()
 {
     $bundles = array(
         // ...
-        new Endroid\Bundle\GcmBundle\GcmBundle(),
+        new Endroid\Bundle\GcmBundle\EndroidGcmBundle(),
     );
 }
 ```
@@ -58,7 +58,7 @@ public function registerBundles()
 ### config.yml
 
 ```yaml
-gcm:
+endroid_gcm:
     api_key: "Your API Key (use the Browser key)"
 ```
 

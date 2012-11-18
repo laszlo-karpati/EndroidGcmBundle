@@ -1,4 +1,4 @@
 services:
     endroid.gcm:
         class: Endroid\Gcm\Gcm
-        arguments: [ %gcm.api_key%, %gcm.api_url% ]
+        arguments: [ %endroid.gcm.api_key%, %endroid.gcm.api_url% ]

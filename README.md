@@ -70,7 +70,7 @@ After installation and configuration, the service can be directly referenced fro
 <?php
 public function gcmSendAction()
 {
-    $gcm = $this->get('gcm');
+    $gcm = $this->get('endroid.gcm');
 
     $registrationIds = array(
         // Registration ID's of devices to target

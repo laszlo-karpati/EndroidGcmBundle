@@ -16,7 +16,7 @@ class Configuration implements ConfigurationInterface
         $rootNode
             ->children()
                 ->scalarNode('api_key')->isRequired()->cannotBeEmpty()->end()
-                ->scalarNode('api_url')->defaultValue('https://android.googleapis.com/gcm/send')->end()
+                ->scalarNode('api_url')->defaultValue(null)->end()
             ->end();
 
         return $treeBuilder;

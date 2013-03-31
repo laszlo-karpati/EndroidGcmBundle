@@ -1,6 +1,8 @@
 Endroid Google Cloud Messaging Bundle
 =====================================
 
+*By [endroid](http://endroid.nl/)*
+
 [![Build Status](https://secure.travis-ci.org/endroid/EndroidGcmBundle.png)](http://travis-ci.org/endroid/EndroidGcmBundle)
 
 This bundle enables you to use the Endroid Google Cloud Messaging (endroid/Gcm) library as a decoupled service and
@@ -86,3 +88,8 @@ public function gcmSendAction()
     ...
 }
 ```
+
+## License
+
+This bundle is under the MIT license. For the full copyright and license information, please view the LICENSE file that
+was distributed with this source code.
